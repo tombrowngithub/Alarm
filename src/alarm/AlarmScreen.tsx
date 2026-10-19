@@ -209,7 +209,7 @@ export default function AlarmScreen() {
       <SafeAreaView style={s.screen}>
         <Text style={s.title}>Android only</Text>
         <Text style={s.sub}>
-          This alarm uses Android's alarm clock, full-screen and alarm-sound features.
+          This alarm uses Android&apos;s alarm clock, full-screen and alarm-sound features.
         </Text>
       </SafeAreaView>
     );
@@ -269,7 +269,7 @@ export default function AlarmScreen() {
           )}
           {!perms.batteryUnrestricted && (
             <Pressable style={s.warnBtn} onPress={requestIgnoreBatteryOptimizations}>
-              <Text style={s.warnBtnText}>Don't optimize battery for this app</Text>
+              <Text style={s.warnBtnText}>Don&apos;t optimize battery for this app</Text>
             </Pressable>
           )}
         </View>
@@ -419,3 +419,4 @@ const s = StyleSheet.create({
   },
   stopText: { color: C.accent, fontSize: 22, fontWeight: '700' },
 });
+
